@@ -55,37 +55,39 @@ const Experience = () => {
     }
   }
 
+  const baseUrl = import.meta.env.BASE_URL
+
   const experiences = [
     {
-      icon: '/assets/scia.png',
+      icon: `${baseUrl}assets/scia.png`,
       company: 'Singapore-Cambodia International Academy',
       role: 'Management Consultant Intern',
       period: 'Dec 2025',
       description: 'Conducted primary and secondary market research, stakeholder interviews, and data analysis, applying consulting frameworks to develop clear, actionable recommendations to improve student acquisition, retention, and competitive positioning'
     },
     {
-      icon: '/assets/kyndryl.png',
+      icon: `${baseUrl}assets/kyndryl.png`,
       company: 'Kyndryl',
       role: 'Service Desk Engineer',
       period: 'Feb 2025 - May 2025',
       description: 'Providing IT support for Singapore\'s healthcare system, troubleshooting applications, infrastructure, and end-user technologies to ensure seamless operations.'
     },
     {
-      icon: '/assets/saf.png',
+      icon: `${baseUrl}assets/saf.png`,
       company: 'Singapore Armed Forces',
       role: 'Information Systems Specialist',
       period: 'Nov 2023 - Jan 2025',
       description: 'Designed, deployed, and maintained secure network architectures for mission-critical military operations, ensuring high availability and efficiency.'
     },
     {
-      icon: '/assets/imda.png',
+      icon: `${baseUrl}assets/imda.png`,
       company: 'IMDA',
       role: 'Project Intern',
       period: 'Jan 2023 - March 2023',
       description: 'Conducted in-depth research on emerging technologies and assisted in planning and executing AsiaTech x Singapore (ATxSG),'
     },
     {
-      icon: '/assets/techie-tykes.jpg',
+      icon: `${baseUrl}assets/techie-tykes.jpg`,
       company: 'Techie Tykes',
       role: 'Assistant Teacher',
       period: 'Dec 2020',

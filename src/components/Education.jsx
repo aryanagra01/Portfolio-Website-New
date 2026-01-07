@@ -8,10 +8,11 @@ const Education = () => {
   const [expandedCardIndex, setExpandedCardIndex] = useState(null)
 
   const gap = 16
+  const baseUrl = import.meta.env.BASE_URL
 
   const educations = [
     {
-      icon: '/assets/ntu_image.png',
+      icon: `${baseUrl}assets/ntu_image.png`,
       institution: 'Nanyang Technological University Singapore',
       program: 'Renaissance Engineering Programme',
       period: 'Aug 2025 - Dec 2029',
@@ -25,7 +26,7 @@ const Education = () => {
       others: ''
     },
     {
-      icon: '/assets/vjc2.png',
+      icon: `${baseUrl}assets/vjc2.png`,
       institution: 'Victoria Junior College',
       program: '',
       period: 'Jan 2021 - Dec 2022',
@@ -48,7 +49,7 @@ const Education = () => {
       others: ''
     },
     {
-      icon: '/assets/vs.png',
+      icon: `${baseUrl}assets/vs.png`,
       institution: 'Victoria School',
       program: '',
       period: 'Jan 2017 - Dec 2020',

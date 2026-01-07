@@ -21,7 +21,7 @@ const About = () => {
       </div>
       
       <img 
-        src="/assets/arrow.png" 
+        src={`${import.meta.env.BASE_URL}assets/arrow.png`} 
         alt="arrow-pic" 
         className="hidden lg:block absolute -right-20 bottom-10 h-8 cursor-pointer" 
         onClick={() => scrollToSection('experience')}

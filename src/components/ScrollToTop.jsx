@@ -25,7 +25,7 @@ const ScrollToTop = () => {
 
   return (
     <img 
-      src="/assets/arrow.png" 
+      src={`${import.meta.env.BASE_URL}assets/arrow.png`} 
       alt="Arrow icon" 
       id="myBtn"
       className={`fixed bottom-4 right-4 z-50 h-8 cursor-pointer rotate-180 transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}

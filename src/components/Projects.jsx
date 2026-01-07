@@ -54,21 +54,23 @@ const Projects = () => {
     }
   }
 
+  const baseUrl = import.meta.env.BASE_URL
+
   const projects = [
     {
-      image: '/assets/unity symbol.png',
+      image: `${baseUrl}assets/unity symbol.png`,
       title: 'Games on Unity',
       link: 'https://github.com/',
       linkText: 'Github'
     },
     {
-      image: '/assets/freefyler.png',
+      image: `${baseUrl}assets/freefyler.png`,
       title: 'Research on Orbital Manuvering',
-      link: '/assets/PH017_SSEF_Project Report.pdf',
+      link: `${baseUrl}assets/PH017_SSEF_Project Report.pdf`,
       linkText: 'Research Paper'
     },
     {
-      image: '/assets/mimoso.png',
+      image: `${baseUrl}assets/mimoso.png`,
       title: 'Project Mimoso (CWW)',
       link: 'https://www.instagram.com/project.mimoso/',
       linkText: 'Instagram'
