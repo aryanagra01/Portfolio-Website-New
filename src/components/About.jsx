@@ -7,7 +7,7 @@ const About = () => {
   }
 
   return (
-    <section id="about" className="relative pt-6 min-h-fit mx-4 sm:mx-6 lg:mx-10 xl:mx-40">
+    <section id="about" className="relative pt-12 sm:pt-6 min-h-fit mx-4 sm:mx-6 lg:mx-10 xl:mx-40">
       <p className="text-sm sm:text-lg lg:text-xl text-center mb-3 sm:mb-4 text-gray-600 dark:text-gray-400">Get to know more</p>
       <h1 className="text-2xl sm:text-4xl lg:text-5xl text-center mb-4 sm:mb-7 lg:mb-8 text-gray-900 dark:text-white">About Me</h1>
       

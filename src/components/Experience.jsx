@@ -96,7 +96,7 @@ const Experience = () => {
   ]
 
   return (
-    <section id="experience" className="relative pt-6 min-h-fit mx-4 sm:mx-6 lg:mx-10 xl:mx-40">
+    <section id="experience" className="relative pt-12 sm:pt-6 min-h-fit mx-4 sm:mx-6 lg:mx-10 xl:mx-40">
       <p className="text-sm sm:text-lg lg:text-xl text-center mb-3 sm:mb-4 text-gray-600 dark:text-gray-400">Explore My</p>
       <h1 className="text-2xl sm:text-4xl lg:text-5xl text-center mb-4 sm:mb-7 lg:mb-8 text-gray-900 dark:text-white">Experience</h1>
       
@@ -162,7 +162,7 @@ const Experience = () => {
               </div>
               <button
                 onClick={() => setExpandedCardIndex(index)}
-                className="mt-auto px-6 py-2 bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-900 rounded-full hover:bg-gray-700 dark:hover:bg-gray-300 transition-all duration-300 w-fit mx-auto"
+                className="mt-auto px-4 py-1.5 sm:px-6 sm:py-2 bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-900 rounded-full hover:bg-gray-700 dark:hover:bg-gray-300 transition-all duration-300 w-fit mx-auto text-xs sm:text-base"
               >
                 Read more
               </button>

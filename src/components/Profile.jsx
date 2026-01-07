@@ -11,7 +11,7 @@ const Profile = () => {
   }
 
   return (
-    <section id="profile" className="flex flex-col lg:flex-row justify-center items-center gap-8 sm:gap-12 lg:gap-20 h-[80vh] pt-6 mx-4 sm:mx-6 lg:mx-10 xl:mx-40">
+    <section id="profile" className="flex flex-col lg:flex-row justify-center items-center gap-8 sm:gap-12 lg:gap-20 h-[80vh] pt-12 sm:pt-6 mx-4 sm:mx-6 lg:mx-10 xl:mx-40">
       <div className="flex h-[200px] w-[200px] sm:h-[275px] sm:w-[275px] lg:h-[400px] lg:w-[400px] mx-auto lg:mx-0 mb-6 sm:mb-8 lg:mb-0">
         <img 
           id="aryan_photo" 
